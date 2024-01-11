@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F0E6"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_width="450dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="230dp"
+        android:background="@drawable/shape2p1">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="450dp"
+        android:layout_height="70dp"
+        android:background="@drawable/shape2"
+        android:id="@+id/kotakbiru">
+    </ImageView>
+
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/shape3">
+    </ImageView>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/shape3"
+        android:fontFamily="@font/poppinsregular"
+        android:paddingLeft="20dp"
+        android:hint="Search your choco"
+        android:textSize="15dp"/>
+
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="250dp"
+        android:src="@drawable/seacrh"
+
+        android:id="@+id/search">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="340dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/usericon"
+        android:id="@+id/menu">
+
+    </ImageView>
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/search"
+        android:layout_marginTop="53dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/iconmilkshake"
+            android:id="@+id/train">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/desserticon"
+            android:id="@+id/bus">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/coffeicon">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/snackchoc">
+
+        </ImageView>
+
+
+
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Milkshake"
+        android:layout_marginTop="200dp"
+        android:paddingLeft="15dp"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="15sp">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dessert"
+        android:layout_marginTop="200dp"
+        android:paddingLeft="130dp"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="15sp">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Coffe"
+        android:layout_marginTop="200dp"
+        android:paddingLeft="235dp"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="15sp">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Snack"
+        android:layout_marginTop="200dp"
+        android:paddingLeft="340dp"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="15sp">
+
+    </TextView>
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="245dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/abuterang">
+
+    </ImageView>
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="Promo"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="35dp"
+        android:fontFamily="@font/poppinsbold"
+        android:textColor="@color/SecondaryColor"
+        android:id="@+id/proms">
+
+    </TextView>
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="245dp"
+        android:layout_marginLeft="150dp"
+        android:background="@drawable/button_shape">
+
+    </ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Limited"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="180dp"
+        android:fontFamily="@font/poppinsbold"
+        android:textColor="@color/SecondaryColor"
+        android:id="@+id/textrekomen">
+
+    </TextView>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="245dp"
+        android:layout_marginLeft="300dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/abuterang">
+
+    </ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="335dp"
+        android:fontFamily="@font/poppinsbold"
+        android:textColor="@color/SecondaryColor"
+        android:id="@+id/bokung">
+
+    </TextView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/recommend1"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:layout_below="@id/textrekomen"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="20dp"
+        android:src="@drawable/shape3">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/paketkeluargacoklat">
+
+        </ImageView>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/keluargaberencana"
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        android:layout_below="@id/recommend1"
+        android:layout_marginTop="-8dp"
+        android:fontFamily="@font/poppinsbold"
+        android:paddingLeft="25dp"
+        android:text="Jumbo Bundle"
+        android:textSize="30dp">
+
+    </TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/recommend1"
+        android:layout_marginTop="35dp"
+        android:paddingLeft="11dp"
+        android:text="- 2 milkshake "
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="15dp"
+        android:id="@+id/diskon">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="11dp"
+        android:text=" - 1 coffe "
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="15dp"
+        android:id="@+id/gratis"
+        android:layout_below="@id/recommend1"
+        android:layout_marginTop="54dp">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:paddingLeft="11dp"
+        android:text=" - 4 snack"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="15dp"
+        android:id="@+id/gratis2"
+        android:layout_marginTop="73dp"
+        android:layout_below="@id/recommend1">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:paddingLeft="11dp"
+        android:text=" - 2 dessert"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="15dp"
+        android:id="@+id/gratis3"
+        android:layout_marginTop="92dp"
+        android:layout_below="@id/recommend1">
+
+    </TextView>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button_shape"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/recommend1"
+        android:layout_marginTop="133dp"
+        android:text="Order"
+        android:fontFamily="@font/poppinsbold"
+        android:textColor="@color/SecondaryColor"
+        android:id="@+id/jumbobtn"
+        >
+
+    </Button>
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#F4F0E6"
+    android:layout_height="match_parent"
+    tools:context=".listview">
+
+    <ImageView
+        android:layout_width="450dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="230dp"
+        android:background="@drawable/shape2p1">
+    </ImageView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/atas">
+
+        <ImageView
+            android:layout_width="450dp"
+            android:layout_height="70dp"
+            android:background="@drawable/shape2"
+            android:id="@+id/kotakbiru">
+        </ImageView>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/shape3">
+        </ImageView>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape3"
+            android:fontFamily="@font/poppinsregular"
+            android:hint="Search your choco"
+            android:paddingLeft="20dp"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="250dp"
+            android:src="@drawable/seacrh"
+
+            android:id="@+id/search">
+        </ImageView>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="340dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/usericon"
+            android:id="@+id/menu">
+
+        </ImageView>
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/search"
+            android:layout_marginTop="53dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/iconmilkshake"
+                android:id="@+id/train">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/desserticon"
+                android:id="@+id/bus">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/coffeicon">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/snackchoc">
+
+            </ImageView>
+
+
+
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Milkshake"
+            android:layout_marginTop="200dp"
+            android:paddingLeft="15dp"
+            android:fontFamily="@font/poppinsbold"
+            android:textSize="15sp">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dessert"
+            android:layout_marginTop="200dp"
+            android:paddingLeft="130dp"
+            android:fontFamily="@font/poppinsbold"
+            android:textSize="15sp">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Coffe"
+            android:layout_marginTop="200dp"
+            android:paddingLeft="235dp"
+            android:fontFamily="@font/poppinsbold"
+            android:textSize="15sp">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Snack"
+            android:layout_marginTop="200dp"
+            android:paddingLeft="340dp"
+            android:fontFamily="@font/poppinsbold"
+            android:textSize="15sp">
+
+        </TextView>
+
+
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="245dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="@color/abuterang">
+
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Promo"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="35dp"
+            android:fontFamily="@font/poppinsbold"
+            android:textColor="@color/SecondaryColor"
+            android:id="@+id/promolagi">
+
+        </TextView>
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="245dp"
+            android:layout_marginLeft="150dp"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="@color/abuterang">
+
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Limited"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="180dp"
+            android:fontFamily="@font/poppinsbold"
+            android:textColor="@color/SecondaryColor"
+            android:id="@+id/mended">
+
+        </TextView>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="245dp"
+            android:layout_marginLeft="300dp"
+            android:background="@drawable/button_shape">
+
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="335dp"
+            android:fontFamily="@font/poppinsbold"
+            android:textColor="@color/SecondaryColor"
+            android:id="@+id/books">
+
+        </TextView>
+    </RelativeLayout>
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/atas"
+        android:id="@+id/bawah">
+
+        <ListView
+            android:id="@+id/listitemview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/activity_clv"
+            tools:ignore="MissingConstraints" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>
+
+
+

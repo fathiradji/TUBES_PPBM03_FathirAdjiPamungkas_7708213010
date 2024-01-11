@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registeractivity"
+    android:background="@drawable/bgcoklatgrd">
+
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/logococoklatremovebgpreview">
+
+    </ImageView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_back"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/back2"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/SecondaryColor"
+        android:text="Hi, Please Register your Account"
+        android:fontFamily="@font/poppinssemibold"
+        android:textSize="18sp"
+        android:id="@+id/text1.1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/text1.1"
+        android:padding="20dp"
+        android:id="@+id/ly_1">
+        
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="57dp"
+            android:background="@drawable/button_shape"
+            android:hint="Enter your Name "
+            android:textSize="15dp"
+            android:backgroundTint="@color/SecondaryColor"
+            android:paddingLeft="10dp"
+            android:fontFamily="@font/poppinsregular"
+            android:layout_marginVertical="10dp"
+            android:id="@+id/nama1"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="57dp"
+            android:background="@drawable/button_shape"
+            android:hint="Enter your Gmail"
+            android:textSize="15dp"
+            android:backgroundTint="@color/SecondaryColor"
+            android:paddingLeft="10dp"
+            android:fontFamily="@font/poppinsregular"
+            android:layout_marginVertical="10dp"
+            android:id="@+id/nama2"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="57dp"
+            android:background="@drawable/button_shape"
+            android:hint="Create Your Password "
+            android:textSize="15dp"
+            android:backgroundTint="@color/SecondaryColor"
+            android:paddingLeft="10dp"
+            android:fontFamily="@font/poppinsregular"
+            android:layout_marginVertical="10dp"
+            android:id="@+id/nama3"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="57dp"
+            android:background="@drawable/button_shape"
+            android:hint="Confirm Password "
+            android:textSize="15dp"
+            android:backgroundTint="@color/SecondaryColor"
+            android:paddingLeft="10dp"
+            android:fontFamily="@font/poppinsregular"
+            android:layout_marginVertical="10dp"
+            android:id="@+id/nama4"
+            />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/gender"
+            android:background="@drawable/shape3"
+
+            android:orientation="horizontal">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="MALE"
+                android:layout_marginHorizontal="40dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FEMALE"
+                android:textSize="20sp"
+                android:layout_marginLeft="40dp"
+                android:textStyle="bold"
+                />
+        </RadioGroup>
+
+            
+
+    </LinearLayout>
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:layout_below="@id/ly_1"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_shape"
+        android:width="300dp"
+        android:textColor="@color/SecondaryColor"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="18sp"
+        android:id="@+id/regis"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/regis"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an account ? "
+            android:textSize="12sp"
+            android:fontFamily="@font/poppinsregular"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textSize="12sp"
+            android:fontFamily="@font/poppinssemibold"
+            android:textColor="@color/primaryColor"
+            android:id="@+id/loginlagi"/>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

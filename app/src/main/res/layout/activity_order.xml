@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WHERE TO?"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:fontFamily="@font/poppinsbold"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tiket">
+    </TextView>
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="65dp"
+        android:src="@drawable/ktp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/gaskeun">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fill your data"
+        android:textSize="17dp"
+        android:fontFamily="@font/poppinsbold"
+        android:textColor="@color/SecondaryColor"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true">
+
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_back"
+        android:paddingLeft="20dp"
+        android:id="@+id/backpmsn"
+        android:layout_marginTop="17dp">
+
+    </ImageView>
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="550dp"
+        android:src="@drawable/cardviewtiket"
+        android:layout_marginTop="120dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/oke"
+        >
+
+    </ImageView>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gaskeun"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical"
+        android:id="@+id/linear1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:layout_marginLeft="40dp"
+            android:fontFamily="@font/poppinsregular">
+
+        </TextView>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="fill your name"
+            android:textColor="@color/material_dynamic_neutral80"
+            android:layout_marginLeft="49dp">
+
+        </EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:layout_marginLeft="40dp"
+            android:fontFamily="@font/poppinsregular">
+
+        </TextView>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="fill your address"
+            android:textColor="@color/material_dynamic_neutral80"
+            android:layout_marginLeft="49dp">
+
+        </EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone number"
+            android:layout_marginLeft="40dp"
+            android:fontFamily="@font/poppinsregular">
+
+        </TextView>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="fill your phone number"
+            android:textColor="@color/material_dynamic_neutral80"
+            android:layout_marginLeft="49dp">
+
+        </EditText>
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp">
+
+        </Spinner>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear1"
+        android:layout_marginTop="10dp">
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/start1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_shape"
+        android:layout_marginTop="650dp"
+        android:width="200dp"
+        android:text="Checkout"
+        android:textColor="@color/SecondaryColor" />
+
+</RelativeLayout>

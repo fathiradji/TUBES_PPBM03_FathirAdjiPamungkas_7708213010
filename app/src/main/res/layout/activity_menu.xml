@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F0E6"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:layout_width="450dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="230dp"
+        android:background="@drawable/shape2p1">
+    </ImageView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/atas">
+
+        <ImageView
+            android:layout_width="450dp"
+            android:layout_height="70dp"
+            android:background="@drawable/shape2"
+            android:id="@+id/kotakbiru">
+        </ImageView>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/shape3">
+        </ImageView>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/shape3"
+            android:fontFamily="@font/poppinsregular"
+            android:paddingLeft="20dp"
+            android:hint="Search your choco"
+            android:textSize="20dp"/>
+
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="250dp"
+            android:src="@drawable/seacrh"
+
+            android:id="@+id/search">
+        </ImageView>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="340dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/usericon"
+            android:id="@+id/menu">
+
+        </ImageView>
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/search"
+            android:layout_marginTop="30dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/iconmilkshake"
+                android:id="@+id/train">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/desserticon"
+                android:id="@+id/bus">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/coffeicon">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/snackchoc">
+
+            </ImageView>
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="200dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Milkshake"
+                android:paddingLeft="15dp"
+                android:fontFamily="@font/poppinsbold"
+                android:textSize="15sp"
+                android:layout_weight="1">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Dessert"
+                android:fontFamily="@font/poppinsbold"
+                android:textSize="15sp"
+                android:layout_weight="1"
+                android:paddingLeft="15dp">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Coffe"
+                android:fontFamily="@font/poppinsbold"
+                android:textSize="15sp"
+                android:layout_weight="1"
+                android:paddingLeft="15dp">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Snack"
+                android:fontFamily="@font/poppinsbold"
+                android:textSize="15sp"
+                android:layout_weight="1"
+                android:paddingLeft="15dp">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="245dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/button_shape">
+
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Promo"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="35dp"
+            android:fontFamily="@font/poppinsbold"
+            android:textColor="@color/SecondaryColor">
+
+        </TextView>
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="245dp"
+            android:layout_marginLeft="150dp"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="@color/abuterang"
+            android:id="@+id/promo">
+
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Limited"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="180dp"
+            android:fontFamily="@font/poppinsbold"
+            android:textColor="@color/SecondaryColor"
+            android:id="@+id/rekomended">
+
+        </TextView>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="245dp"
+            android:layout_marginLeft="300dp"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="@color/abuterang">
+
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="335dp"
+            android:fontFamily="@font/poppinsbold"
+            android:textColor="@color/SecondaryColor"
+            android:id="@+id/booking1">
+
+        </TextView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/atas">
+
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/image_slider"
+            android:layout_width="300dp"
+            android:layout_height="170dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            app:iss_auto_cycle="true"
+            app:iss_period="1000"
+            app:iss_delay="1000"
+            app:iss_text_align="CENTER"
+            app:iss_placeholder="@drawable/chocobundle1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choco Bundle 1"
+            android:fontFamily="@font/poppinsmedium"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/beli"
+            android:layout_below="@id/image_slider">
+
+        </TextView>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/beli"
+            android:background="@drawable/button_shape"
+            android:fontFamily="@font/poppinssemibold"
+            android:textColor="@color/SecondaryColor"
+            android:id="@+id/buttonbook"
+            android:text="Order"
+            android:layout_centerHorizontal="true">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/image_slider2"
+            android:layout_width="300dp"
+            android:layout_height="170dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            app:iss_auto_cycle="true"
+            app:iss_period="1000"
+            app:iss_delay="1000"
+            app:iss_text_align="CENTER"
+            app:iss_placeholder="@drawable/chocobundle2"
+            android:layout_below="@id/buttonbook"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choco Bundle 2"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/image_slider2"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/kata2">
+
+        </TextView>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_shape"
+            android:text="Order"
+            android:fontFamily="@font/poppinssemibold"
+            android:textColor="@color/SecondaryColor"
+            android:id="@+id/order2"
+            android:layout_below="@id/kata2">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#1BA0E2</color>
+    <color name="SecondaryColor">#FFFFFFFF</color>
+    <color name="colorAccent">#000000</color>
+    <color name="biru">#00ACEE</color>
+    <color name="abu">#808080</color>
+    <color name="abuterang">#D3D3D3</color>
+
+</resources>
+

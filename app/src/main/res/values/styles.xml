@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.LoginRegisterRelative" parent="Theme.AppCompat.Light.NoActionBar" >
+     <item name="colorPrimary">@color/primaryColor</item>
+     <item name="colorSecondary">@color/SecondaryColor</item>
+     <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/colorAccent</item>
+        <item name="colorControlActivated">@android:color/holo_orange_light</item>
+            </style>
+    
+    <style name="TabLayoutTextStyle">
+        <item name="text_style">bold</item>
+        <item name="text_size">16sp</item>
+        <item name="text_color">#A15D30</item>
+    </style>
+
+</resources>
