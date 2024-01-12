@@ -78,7 +78,7 @@
         <EditText
             android:layout_width="300dp"
             android:layout_height="50dp"
-            android:text="fill your name"
+            android:hint="fill your name"
             android:textColor="@color/material_dynamic_neutral80"
             android:layout_marginLeft="49dp">
 
@@ -96,7 +96,7 @@
         <EditText
             android:layout_width="300dp"
             android:layout_height="50dp"
-            android:text="fill your address"
+            android:hint="fill your address"
             android:textColor="@color/material_dynamic_neutral80"
             android:layout_marginLeft="49dp">
 
@@ -114,7 +114,7 @@
         <EditText
             android:layout_width="300dp"
             android:layout_height="50dp"
-            android:text="fill your phone number"
+            android:hint="fill your phone number"
             android:textColor="@color/material_dynamic_neutral80"
             android:layout_marginLeft="49dp">
 
