@@ -74,7 +74,8 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_below="@id/search"
-            android:layout_marginTop="53dp">
+            android:id="@+id/imagecat3"
+            android:layout_marginTop="30dp">
 
             <ImageView
                 android:layout_width="match_parent"
@@ -114,46 +115,55 @@
 
 
 
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Milkshake"
-            android:layout_marginTop="200dp"
-            android:paddingLeft="15dp"
-            android:fontFamily="@font/poppinsbold"
-            android:textSize="15sp">
+            android:orientation="horizontal"
+            android:layout_below="@+id/imagecat3"
+            android:layout_marginTop="10dp">
 
-        </TextView>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Dessert"
-            android:layout_marginTop="200dp"
-            android:paddingLeft="130dp"
-            android:fontFamily="@font/poppinsbold"
-            android:textSize="15sp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Milkshake"
+                android:paddingLeft="15dp"
+                android:fontFamily="@font/poppinsbold"
+                android:textSize="15sp"
+                android:layout_weight="1">
 
-        </TextView>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Coffe"
-            android:layout_marginTop="200dp"
-            android:paddingLeft="235dp"
-            android:fontFamily="@font/poppinsbold"
-            android:textSize="15sp">
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Dessert"
+                android:fontFamily="@font/poppinsbold"
+                android:textSize="15sp"
+                android:layout_weight="1"
+                android:paddingLeft="15dp">
 
-        </TextView>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Snack"
-            android:layout_marginTop="200dp"
-            android:paddingLeft="340dp"
-            android:fontFamily="@font/poppinsbold"
-            android:textSize="15sp">
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Coffe"
+                android:fontFamily="@font/poppinsbold"
+                android:textSize="15sp"
+                android:layout_weight="1"
+                android:paddingLeft="15dp">
 
-        </TextView>
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Snack"
+                android:fontFamily="@font/poppinsbold"
+                android:textSize="15sp"
+                android:layout_weight="1"
+                android:paddingLeft="15dp">
+
+            </TextView>
+
+        </LinearLayout>
 
 
 

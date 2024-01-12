@@ -52,7 +52,6 @@
             android:layout_marginTop="5dp"
             android:layout_marginLeft="250dp"
             android:src="@drawable/seacrh"
-
             android:id="@+id/search">
         </ImageView>
 
@@ -74,6 +73,7 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_below="@id/search"
+            android:id="@+id/imagecat"
             android:layout_marginTop="30dp">
 
             <ImageView
@@ -117,7 +117,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginTop="200dp">
+            android:layout_below="@+id/imagecat"
+            android:layout_marginTop="10dp">
 
             <TextView
                 android:layout_width="match_parent"
